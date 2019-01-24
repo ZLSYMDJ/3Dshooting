@@ -1,0 +1,15 @@
+程序运行环境：python3 + pygame
+如果没有配置，请参考https://www.jianshu.com/p/865bd035988e
+
+versionxxx目录下是对应版本的python文件
+
+开始游戏时，需要先启动服务器程序（svr.py），再启动客户端程序(clt.py)
+
+cfg.txt是服务器和客户端监听的ip配置:
+  cltconnect字段需要修改为目标服务器的ip
+  如果自己启动服务器，需要将svrlisten字段修改为运行机器的ip
+
+
+如果自己启动服务器,运行svr.py文件
+
+运行clt.py文件启动客户端。如果需要多开，可再次运行clt.py
