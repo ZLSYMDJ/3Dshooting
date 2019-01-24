@@ -1,0 +1,2 @@
+svrlisten:192.168.24.67
+cltconnect:192.168.24.67
